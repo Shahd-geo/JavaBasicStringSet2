@@ -1,5 +1,7 @@
 public class TASK14 {
     static void main(String[] args) {
+        String str="AAxyzBB";
+        System.out.println(xyzMiddle(str));
 
 
     }
@@ -8,9 +10,12 @@ public class TASK14 {
             if (str.substring(i,i+3).equals("xyz")){
                 int left = i ;
                 int right = str.length()- (i+3);
-                if ()
+                if (Math.abs((left-right))<=1){
+                    return true;
+                }
 
             }
        }
+        return false;
     }
 }
