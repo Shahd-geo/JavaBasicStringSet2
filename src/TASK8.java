@@ -6,7 +6,7 @@ public class TASK8 {
     }
     public static boolean xyBalance(String str){
         for (int i = 0 ; i < str.length()-1 ; i++){
-            if (str.contains('x')&& str.contains('y')){
+            if (str.contains("x")&& str.contains("y")){
                 return true;
             }
         }
