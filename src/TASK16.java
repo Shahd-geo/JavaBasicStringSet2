@@ -1,7 +1,7 @@
 public class TASK16 {
     static void main(String[] args) {
         String str = "xy*yzz";
-        System.out.println();
+        System.out.println(sameStarChar(str));
 
     }
     public static boolean sameStarChar(String str){
