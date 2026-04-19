@@ -4,5 +4,9 @@ public class TASK3 {
        int catCount = 0;
        int dogCount=0;
        for (int i = 0 ; i<catdogappear.length()-1 ; i++){
+           if (catdogappear.substring(i , i+3).equals("cat")){
+               catCount++;
+           }
+       }
     }
 }
