@@ -3,6 +3,9 @@ public class TASK10 {
 
     }
     public static String repeatEnd(String str,Integer n){
+       String end = str.substring(str.length()-n) ;
+       String RESULT = "";
+
 
     }
 }
