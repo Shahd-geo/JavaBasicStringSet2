@@ -5,7 +5,12 @@ public class TASK14 {
     }
     public static boolean xyzMiddle(String str){
         for (int i = 0 ; i<str.length()-1 ; i++){
-            if (str.substring())
-        }
+            if (str.substring(i,i+3).equals("xyz")){
+                int left = i ;
+                int right = str.length()- (i+3);
+                if ()
+
+            }
+       }
     }
 }
