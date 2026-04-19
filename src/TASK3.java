@@ -7,6 +7,9 @@ public class TASK3 {
            if (catdogappear.substring(i , i+3).equals("cat")){
                catCount++;
            }
+           if (catdogappear.substring(i , i+3).equals("dog")){
+               dogCount++;
+           }
        }
     }
 }
