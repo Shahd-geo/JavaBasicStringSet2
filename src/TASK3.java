@@ -1,15 +1,22 @@
 public class TASK3 {
-    static void main(String[] args) {
-       String catdogappear="catdog";
-       int catCount = 0;
-       int dogCount=0;
-       for (int i = 0 ; i<catdogappear.length()-1 ; i++){
-           if (catdogappear.substring(i , i+3).equals("cat")){
-               catCount++;
-           }
-           if (catdogappear.substring(i , i+3).equals("dog")){
-               dogCount++;
-           }
-       }
+    public static void main(String[] args) {
+        String str="catdog";
+        System.out.println(catdog(str));
+
+    }
+
+    public static boolean catdog (String  str){
+        int catCount = 0;
+        int dogCount = 0;
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (str.substring(i, i + 3).equals("cat")) {
+                catCount++;
+            }
+            if (str.substring(i, i + 3).equals("dog")) {
+                dogCount++;
+            }
+        }
+        return  catCount==dogCount;
     }
 }
+
