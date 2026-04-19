@@ -1,18 +1,21 @@
 public class TASK7 {
     static void main(String[] args) {
         String str = "abcbob";
-        int count = 0;
+        System.out.println(bobThere(str));
+
+    }
+    public static boolean bobThere(String str){
         for (int i = 0; i < str.length() - 1; i++) {
             if (str.charAt(i) == 'b' &&
                     str.charAt(i + 2) == 'b'){
 
-                count++;
+                return true;
 
             }
 
 
         }
-      //  System.out.println(count);
+        return false;
 
     }
 }
